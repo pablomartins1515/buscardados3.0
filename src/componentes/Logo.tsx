@@ -1,5 +1,3 @@
-import React from "react";
-import { WhatsappLogo } from 'phosphor-react'
 
 function Logo() {
   return (

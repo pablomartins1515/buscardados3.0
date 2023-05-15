@@ -4,10 +4,10 @@ import { List } from "phosphor-react"
 
 export function Header() {
     return (
-        <header className="w-full py-3.5 grid grid-flow-col bg-zinc-100 border-b border-zinc-100">
-            <div className="px-7 row-start-1 row-span-1">
+        <header className="w-full py-3.5 grid grid-flow-col bg-zinc-100 border-b border-zinc-100 ">
+            <NavLink to="/" className="pl-7 row-start-1 row-span-1">
                 <Logo />
-            </div>                   
+            </NavLink>                   
 
             <div className="flex items-center justify-center row-end-3 row-span-3 flex-row-reverse">
                 <NavLink to="/maisconsultas" className="text-blue-900">
