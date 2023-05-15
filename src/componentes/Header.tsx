@@ -20,7 +20,7 @@ export function Header() {
 
             
             <div className="flex items-center justify-center row-end-3 row-span-3 flex-row-reverse">
-                <NavLink to="" className="text-blue-900">
+                <NavLink to="/blogpage" className="text-blue-900">
                     <strong className="text-xl text-gray-700 hover:text-blue-900 transition-colors hover:text-2xl hover:border-b-2 border-blue-900">
                         Blog
                     </strong>
